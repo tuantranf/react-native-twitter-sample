@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import {
+  View,
   AppRegistry,
 } from 'react-native';
-import HelloWorld from 'Twitter/src/samples/HelloWorld';
-import Tweet1 from 'Twitter/src/samples/Tweet1';
-import Tweet2 from 'Twitter/src/samples/Tweet2';
-import Tweet3 from 'Twitter/src/samples/Tweet3';
 import Tweet4 from 'Twitter/src/samples/Tweet4';
+import User from 'Twitter/src/samples/User';
+
 import AppRoot from 'Twitter/src/containers/AppRoot';
 
 class Twitter extends Component {
@@ -16,7 +15,10 @@ class Twitter extends Component {
 
   render() {
     return (
-      <HelloWorld />
+      <View style={{ marginTop: 20 }}>
+        <User />
+        <Tweet4 />
+      </View>
     );
   }
 }

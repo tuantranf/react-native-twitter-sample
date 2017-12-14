@@ -23,7 +23,7 @@ export default class extends Component {
     });
 
     let param = {
-      screen_name: '29reach',
+      screen_name: 'realDonaldTrump',
       count: 20,
     };
     client.get('/statuses/user_timeline.json', param)
