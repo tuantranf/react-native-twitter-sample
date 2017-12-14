@@ -111,13 +111,11 @@ const styles = StyleSheet.create({
   count: {
     flexDirection: 'column',
     marginLeft: 5,
-    color: '#657786',
-    fontSize: 11,
   },
   countNumber: {
     marginLeft: 5,
     color: '#657786',
-    fontSize: 11,
+    fontSize: 12,
   },
   image: {
     marginTop: 5,
